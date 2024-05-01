@@ -3,18 +3,18 @@ public class Main {
         System.out.println("Task 1");
         int age = 19;
         if (age >= 18) {
-            System.out.println("Вы совершеннолетний");
+            System.out.println("Он совершеннолетний");
         } else {
             System.out.println("Вы не достигли совершеннолетия, нужно немного подождать");
         }
-        System.out.println("Если возраст человека равен " + age + ", то вы совершеннолетний");
+        System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний");
         int age1 = 12;
         if (age1 >= 18) {
-            System.out.println("Вы совершеннолетний");
+            System.out.println("Он совершеннолетний");
         } else {
             System.out.println("Вы не достигли совершеннолетия, нужно немного подождать");
         }
-        System.out.println("Если возраст человека равен " + age1 + ", то вы не достигли совершеннолетия, нужно немного подождать");
+        System.out.println("Если возраст человека равен " + age1 + ", то он не достиг совершеннолетия, нужно немного подождать");
         System.out.println( );
 
         System.out.println("Task 2");
@@ -24,14 +24,14 @@ public class Main {
         } else {
             System.out.println("Сегодня тепло, можно идти без шапки");
         }
-        System.out.println("На улице" + t + " градусов, нужно надеть шапку");
+        System.out.println("На улице " + t + " градусов, нужно надеть шапку");
         int t1 = 12;
         if (t1 < 5) {
             System.out.println("На улице холодно, нужно надеть шапку");
         } else {
             System.out.println("Сегодня тепло, можно идти без шапки");
         }
-        System.out.println("На улице" + t1 + " градусов, можно идти без шапки");
+        System.out.println("На улице " + t1 + " градусов, можно идти без шапки");
         System.out.println( );
 
         System.out.println("Task 3");
@@ -45,7 +45,7 @@ public class Main {
 
         System.out.println("Task 4");
         int age2 = 10;
-        if (age2 > 2 && age2 < 6) {
+        if (age2 > 2 && age2 <= 6) {
             System.out.println("Нужно ходить в детский сад");
         }
         if (age2 > 7 && age2 < 17) {
@@ -64,7 +64,7 @@ public class Main {
         if (ageChildren < 5) {
             System.out.println("Нельзя кататься на атракционе");
         }
-        if (ageChildren > 5 && ageChildren < 14) {
+        if (ageChildren >= 5 && ageChildren < 14) {
                 System.out.println("Можно кататься на атракционе в сопровождении взрослого");
             }
         if (ageChildren > 14) {
@@ -74,7 +74,7 @@ public class Main {
 
         System.out.println("Task 6");
         int seat = 15;
-        if (seat > 60 && seat <= 102) {
+        if (seat >= 60 && seat <= 102) {
             System.out.println("Стоячее место");
         }
         if (seat > 102) {
